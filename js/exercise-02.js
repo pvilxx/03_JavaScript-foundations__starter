@@ -5,3 +5,13 @@
     
     Repeat the above steps but try using a const variable. Comment this new part of code and explain what is happening.
 */
+
+let name
+name = "Moo!"
+
+console.log(name)
+
+const name2
+name2 = "Moo!"
+
+//This will cause an error because we are trying to reassign a value to a constant variable.
